@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    printf("Teste github.");
+    int n;
+    printf("Insira inteiro:");
+    scanf("%d", &n);
+
+    printf("Quadrado do inteiro =%d\n", n*n);
+    
     return 42;
 }
